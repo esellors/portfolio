@@ -3,6 +3,8 @@ import Modal from '../Common/Modal/Modal'
 import imgDir from '../../assets/img/projects/imgDir';
 
 const Projects = () => {
+    // links order: live, github
+
     const [ projects ] = React.useState([
         {
             name:'INSTAPLAN',
@@ -10,7 +12,12 @@ const Projects = () => {
             projType: 'DevMountain Team Project (as student)',
             purpose: 'Give users one-click access to the current day\'s events. 2 week project time limit.',
             goal: 'Full-stack, intuitive, user-friendly, engaging',
-            links: []
+            links: [
+                {
+                    site: 'github',
+                    url: 'https://github.com/instaplan/instaplan'
+                }
+            ]
         },
         {
             name: 'BARTERTAG',
@@ -21,7 +28,11 @@ const Projects = () => {
             links: [
                 {
                     site: 'demo',
-                    url: 'http://www.yahoo.com'
+                    url: 'https://bartertag.esellors.com'
+                },
+                {
+                    site: 'github',
+                    url: 'https://github.com/esellors/bartertag'
                 }
             ]
         },
@@ -31,7 +42,16 @@ const Projects = () => {
             projType: 'DevMountain Personal Project 1 (as student)',
             purpose: 'To help users visualize daily meal planning. 4 day project time limit',
             goal: '3/4 Stack (no db), lightweight, functional, intuitive',
-            links: []
+            links: [
+                {
+                    site: 'demo',
+                    url: 'https://foodoo.esellors.com/'
+                },
+                {
+                    site: 'github',
+                    url: 'https://github.com/esellors/foodoo'
+                }
+            ]
         }
     ]);
 
