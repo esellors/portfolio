@@ -7,7 +7,7 @@ const About = () => {
                 <h3 className='salutation'>Nice to meet you!</h3>
                 <img
                     className='profile_img'
-                    src={require('../../assets/img/site/about/eric-sellors_cropped.jpg')} 
+                    src={require('../../assets/img/site/about/eric-sellors.jpg')} 
                     alt='Eric Sellors'
                 />
             </div>
