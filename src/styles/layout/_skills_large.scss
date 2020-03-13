@@ -1,0 +1,13 @@
+.skills_section {
+
+    .skills_list {
+        grid-template-columns: 25% 25% 25% 25%;
+        
+        .skill_container {
+
+            .skill_img {
+                max-height: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.site_nav {
+    width: 50%;
+
+    .modal_activator_img {
+        display: none;
+    }
+
+    .horizontal_menu {
+        display: block;
+        
+        .menu_items {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

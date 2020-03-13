@@ -1,0 +1,22 @@
+.header_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .site_nav {
+
+        .modal {
+            
+            .menu_items {
+                height: 100vh;
+                margin: 0;
+                font-size: 3em;
+                line-height: 2em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.skills_section {
+
+    .skills_list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+
+        .skill_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .skill_img {
+                max-height: 50px;
+            }
+        }
+    }
+}

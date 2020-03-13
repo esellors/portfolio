@@ -1,0 +1,30 @@
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, h4, h5, h6, p, li, a {
+    font-family: 'Hind', sans-serif;
+}
+
+p, a, li, figcaption {
+    font-size: calc(16px + 1.5vw);
+    line-height: calc(16px + 2vh + 1vw);
+}
+
+a {
+    text-decoration: none;
+
+    &[target='_blank'] {
+        display: inline-block;
+    }
+
+    &[target='_blank']::after {
+        content: url('../../assets/img/site/common/link-out.svg');
+        vertical-align: super;
+    }
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
