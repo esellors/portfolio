@@ -18,6 +18,11 @@
             font-weight: 900;
         }
 
+        .project_links {
+            display: flex;
+            justify-content: space-around;
+        }
+
         .project_imgs_container {
             padding: 5px 10px;
             display: flex;
