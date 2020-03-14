@@ -68,7 +68,7 @@ const Projects = () => {
                         ?   <p className='project_links'>
                                 {
                                     project.links.map((link, i) => {
-                                        return <a href={link.url} target="_blank" rel="noopener noreferrer">{link.site}</a>
+                                        return <a href={link.url}>{link.site}</a>
                                     })
                                 }
                             </p>
