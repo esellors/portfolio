@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-    const [skills] = React.useState([
+    const skills = [
         {
             name: 'REACT',
             img: require('../../assets/img/skills/react.png')
@@ -34,7 +34,7 @@ const Skills = () => {
             name: 'HTML5',
             img: require('../../assets/img/skills/html5.png')
         }
-    ]);
+    ];
 
     const skillsMapped = skills.map((skill, i) => {
         return (

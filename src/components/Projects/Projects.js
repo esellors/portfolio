@@ -4,8 +4,7 @@ import imgDir from '../../assets/img/projects/imgDir';
 
 const Projects = () => {
     // links order: live, github
-
-    const [ projects ] = React.useState([
+    const projects = [
         {
             name: 'instaplan',
             imgs: imgDir.instaplan,
@@ -53,7 +52,7 @@ const Projects = () => {
                 }
             ]
         }
-    ]);
+    ];
 
     const projectsMapped = projects.map((project, i) => {
         const { name, imgs, projType, purpose, goal } = project;
@@ -104,7 +103,7 @@ const Projects = () => {
     return (
         <section id='projects' className='projects_section sections'>
             <h2 className='section_titles'>projects</h2>
-            <p className='stickied'>View this site's source code on <a href='https://github.com/esellors/portfolio' target='_blank' rel='noopener noreferrer'>github</a></p>
+            <p className='stickied'>View this site's source code on <a href='https://github.com/esellors/portfolio' target='_blank'>github</a></p>
             {projectsMapped}
         </section>
     );
