@@ -7,8 +7,8 @@ h3, h4, h5, h6, p, li, a {
 }
 
 p, a, li, figcaption {
-    font-size: calc(16px + 1.5vw);
-    line-height: calc(16px + 2vh + 1vw);
+    font-size: calc(16px + 1vw);
+    line-height: calc(16px + 2vw);
 }
 
 a {
@@ -20,7 +20,6 @@ a {
 
     &[target='_blank']::after {
         content: url('../../assets/img/site/common/link-out.svg');
-        vertical-align: super;
     }
 }
 

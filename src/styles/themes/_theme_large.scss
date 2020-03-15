@@ -2,6 +2,5 @@ a {
 
     &[target='_blank']::after {
         content: url('../../assets/img/site/common/link-out-lg.svg');
-        vertical-align: super;
     }
 }

@@ -11,18 +11,17 @@ const About = () => {
                     alt='Eric Sellors'
                 />
             </div>
-            <p>
-                My name is Eric and I love all things webdev.
-            </p>
-            <p>
-                I enjoy learning, creating, and being around others that share the same passion. I find it fascinating to be able to build ideas that grow from a single “what if” moment.
-            </p>
-            <p>
-                Outside of development, I enjoy reading, watching sci-fi and comedies, volunteering, and exploring my city of Dallas, TX.
-            </p>
-            <p>
-                More to see below. Thanks for visiting!
-            </p>
+            <div className='about_intro'>
+                <p>
+                    My name is Eric and I love all things webdev.
+                </p>
+                <p>
+                    I enjoy learning, creating, and being around others that share the same passion. I find it fascinating to be able to build ideas that grow from a single “what if” moment.
+                </p>
+                <p>
+                    Thanks for visiting!
+                </p>
+            </div>
         </section>
     );
 }

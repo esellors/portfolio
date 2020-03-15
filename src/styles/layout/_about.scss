@@ -6,7 +6,7 @@
         align-items: center;
 
         .salutation {
-            font-size: 1.5em;
+            font-size: calc(16px + 2vw);
         }
     
         .profile_img {
@@ -14,5 +14,9 @@
             max-width: 350px;
             border-radius: 50%;
         }
+    }
+
+    .about_intro p {
+        text-align: center;
     }
 }
