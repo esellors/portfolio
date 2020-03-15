@@ -7,7 +7,7 @@ const Projects = () => {
 
     const [ projects ] = React.useState([
         {
-            name:'INSTAPLAN',
+            name: 'instaplan',
             imgs: imgDir.instaplan,
             projType: 'DevMountain Team Project (as student)',
             purpose: 'Give users one-click access to the current day\'s events. 2 week project time limit.',
@@ -20,7 +20,7 @@ const Projects = () => {
             ]
         },
         {
-            name: 'BARTERTAG',
+            name: 'bartertag',
             imgs: imgDir.bartertag,
             projType: 'DevMountain Personal Project 2 (as student)',
             purpose: 'To create a new, modern marketplace for bartering. 2 week project time limit.',
@@ -37,7 +37,7 @@ const Projects = () => {
             ]
         },
         {
-            name: 'FOODOO',
+            name: 'foodoo',
             imgs: imgDir.foodoo,
             projType: 'DevMountain Personal Project 1 (as student)',
             purpose: 'To help users visualize daily meal planning. 4 day project time limit',
@@ -59,8 +59,12 @@ const Projects = () => {
         const { name, imgs, projType, purpose, goal } = project;
 
         return (
-            <div className='project_container' key={i}>
-                <p><span className='project_name'>{name}</span>: {projType}</p>
+            <div 
+                key={i}
+                id={name}
+                className='project_container'
+            >
+                <p><span className='project_name'>{name.toUpperCase()}</span>: {projType}</p>
                 <p>{purpose}</p>
                 <p>{goal}</p>
                 {
@@ -68,11 +72,15 @@ const Projects = () => {
                         ?   <p key={i} className='project_links'>
                                 {
                                     project.links.map((link, i) => {
-<<<<<<< HEAD
-                                        return <a href={link.url}>{link.site}</a>
-=======
-                                        return <a key={i} href={link.url} target="_blank" rel="noopener noreferrer">{link.site}</a>
->>>>>>> 1f2f882b86597f6c3d25919cb03011f3bf570536
+                                        const aTarget = link.site === 'demo' 
+                                            ? '_self'
+                                            : '_blank'
+
+                                        return <a 
+                                            key={i} 
+                                            href={link.url} 
+                                            target={aTarget}
+                                        >{link.site}</a>
                                     })
                                 }
                             </p>
