@@ -4,11 +4,15 @@
     padding: 0 5px;
 
     .sections {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 1vw 0;
+
+        p, a, li, figcaption {
+            font-size: 24px;
+            line-height: 26px;
+        }
 
         .section_titles {
-            font-size: 42px;
+            font-size: 28px;
         }
     }
 }

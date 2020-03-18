@@ -24,10 +24,12 @@
 // media queries
 @media only screen and (min-width: 650px) {
     @import 
+        './layout/app_medium',
         './layout/header_medium',
         './layout/menu_medium',
         './layout/about_medium',
-        './layout/skills_medium';
+        './layout/skills_medium',
+        './layout/projects_medium';
 }
 
 @media only screen and (min-width: 850px) {
