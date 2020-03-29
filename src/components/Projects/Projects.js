@@ -14,7 +14,7 @@ const Projects = () => {
 
             {projectsMapped}
 
-            <p className='mini_projects_intro'>The following are smaller projects that I've either created for lesson content, or made just for kicks.</p>
+            <p className='mini_projects_intro'>The following are smaller projects that I've created for lesson content.</p>
             
             <div className='mini_projects_container'>
                 {miniProjectsMapped}

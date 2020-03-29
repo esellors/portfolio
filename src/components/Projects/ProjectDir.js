@@ -52,8 +52,8 @@ export const projectDir = {
     miniProjects: [
         {
             name: 'Tamagotchi',
-            context: 'Created this to show students a different way of working with Redux. This lesson was prior to students learning React-Redux.',
-            desc: 'Feed the goodboye to keep him from running away!',
+            context: 'Created to show a different way of working with Redux. This lesson was prior to students learning React-Redux.',
+            desc: 'Keep the virtual pet happy or it will find another home.',
             links: [
                 {
                     site: 'source',
@@ -64,8 +64,8 @@ export const projectDir = {
         },
         {
             name: 'Precisiony',
-            context: 'Created to show students a fun example of passing data using props in React.',
-            desc: 'Test your click precision and amass as many points as possible before the time runs out.',
+            context: 'Created as a fun example to show the passing of data in React using props.',
+            desc: 'Amass as many points as possible before the time runs out by clicking on target.',
             links: [
                 {
                     site: 'source',
@@ -76,8 +76,8 @@ export const projectDir = {
         },
         {
             name: 'Magic Ball',
-            context: 'An example created for students to show off working with vanilla JS.',
-            desc: 'Think your question and the all-knowing Magic Ball will miraculously supply your answer when clicked.',
+            context: 'Created to show off working with vanilla JS.',
+            desc: 'Think your question and the all-knowing Magic Ball will supply your answer.',
             links: [
                 {
                     site: 'source',
