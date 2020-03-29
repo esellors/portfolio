@@ -1,14 +1,14 @@
 .projects_section {
 
-    .project_container {
+    .project_container, .mini_projects_container {
 
-        .project_imgs_container {
+        .project_imgs_container, .project_img_container {
     
             .modal {
                 align-items: center;
     
                 .modal_project_imgs {
-                    width: 80%;
+                    width: 75%;
                     max-width: 1000px;
                     max-height: 100%;
                 }
