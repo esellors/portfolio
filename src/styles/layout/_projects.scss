@@ -10,41 +10,149 @@
         padding: 2px 0;
     }
 
-    .project_container {
-        margin-bottom: calc(7vh - 1vw);
+    .mini_projects_intro {
+        font-style: italic;
+    }
+
+    .project_container, .mini_project_container {
         padding: 1vw;
         border-radius: 10px;
-        box-shadow: 0px 30px 25px -20px rgba(35,38,89,1);
 
         .project_name {
+            margin-top: 0;
             font-weight: 900;
         }
 
-        .project_links {
+        .project_img_container, .project_imgs_container {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
 
-        .project_imgs_container {
-            padding: 5px 10px;
-            display: flex;
-            align-items: center;
-            overflow-x: auto;
-    
             .modal_activator_img {
-                width: 40%;
-                margin: 0 5px;
                 border: 1px solid rgb(181, 181, 181);
                 cursor: pointer;
             }
-    
+
             .modal {
                 flex-direction: column;
                 justify-content: center;
     
                 .modal_project_imgs {
                     width: 100%;
+                }
+            }
+        }
+    }
+
+    .project_container {
+        margin-bottom: calc(7vh - 1vw);
+        box-shadow: 0px 30px 25px -20px rgba(35,38,89,1);
+
+        .project_info {
+
+            .project_clickables {
+    
+                .project_links {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+                .project_imgs_container {
+                    padding: 5px 10px;
+                    align-items: center;
+                    overflow-x: auto;
+
+                    &::-webkit-scrollbar-track {
+                        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+                        border-radius: 10px;
+                        background-color: #F5F5F5;
+                    }
+
+                    &::-webkit-scrollbar {
+                        width: 12px;
+                        background-color: #F5F5F5;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        border-radius: 10px;
+                        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                        background-color: rgba(98, 120, 231, .25);
+                    }
+            
+                    .modal_activator_img {
+                        width: 40%;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .mini_projects_container {
+        margin-top: 2vw;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+        }
+
+        &::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: rgba(98, 120, 231, .25);
+        }
+
+        .mini_project_container {
+            margin: 0 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+
+            .mini_project_info {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .project_meta {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .project_meta_a p {
+                        width: 60vw;
+                    }
+                    
+                    .project_clickables {
+                        display: flex;
+                        flex-direction: column-reverse;
+                        align-items: center;
+            
+                        .project_links {
+                            display: flex;
+                            flex-direction: column;
+                        }
+            
+                        .project_img_container {
+                            
+                            .modal_activator_img {
+                                width: 100%;
+                                max-width: 200px;
+                            }
+                        }
+                    }
                 }
             }
         }

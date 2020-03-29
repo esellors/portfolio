@@ -2,10 +2,55 @@
 
     .project_container {
 
+        .mini_project_info {
+            display: flex;
+            align-items: center;
+
+            .project_meta {
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+
+                .project_meta_a {
+                    padding: 0 5%;
+                }
+
+                .project_meta_b {
+                    
+                    flex-basis: 50%;
+
+                    .project_clickables {
+                        flex-direction: column;
+    
+                        .project_links {
+                            flex-direction: row;
+                        }
+
+                        .project_img_container {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
         .project_imgs_container {
 
             .modal_activator_img {
                 width: 30%;
+            }
+        }
+    }
+
+    .mini_project_container {
+ 
+        .mini_project_info {
+
+            .project_meta {
+
+                .project_meta_a p {
+                    width: 50vw;
+                }
             }
         }
     }
