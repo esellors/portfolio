@@ -35,7 +35,7 @@ export const projectDir = {
         {
             name: 'foodoo',
             context: 'DevMountain Personal Project with 4 day time limit. The goal of this project was to make a site lightweight, functional, and intuitive without employing a database.',
-            desc: 'A one-stop solution for planning out the day\'s meals',
+            desc: 'A one-stop solution for planning out the day\'s meals.',
             links: [
                 {
                     site: 'demo',
