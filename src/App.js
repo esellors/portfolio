@@ -7,6 +7,10 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 
 const App = () => {
+  React.useEffect(() => {
+    
+  })
+
   return (
     <div className='site_container'>
       <Header />

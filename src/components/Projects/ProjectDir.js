@@ -10,6 +10,10 @@ export const projectDir = {
             desc: 'A site that allows single click access to the current day’s events.',
             links: [
                 {
+                    site: 'demo',
+                    url: 'https://instaplan.esellors.com'
+                },
+                {
                     site: 'source',
                     url: 'https://github.com/instaplan/instaplan'
                 }
