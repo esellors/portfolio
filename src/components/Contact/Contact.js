@@ -9,7 +9,7 @@ const Contact = () => {
                 <a href='https://www.linkedin.com/in/esellors/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
             </p>
             <p>
-                <a href='mailto:ericdev@esellors.com'>ericdev&#64;esellors.com</a>
+                <a href='mailto:dev@esellors.com'>dev&#64;esellors.com</a>
             </p>
         </section>
     );
