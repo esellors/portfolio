@@ -27,8 +27,6 @@ const Project = ({project, projType, index}) => {
                                             ? '_self'
                                             : '_blank'
 
-                                        console.log(link.url)
-
                                         return (
                                             <p>
                                                 <a 
