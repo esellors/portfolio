@@ -11,6 +11,9 @@ const Contact = () => {
             <p>
                 <a href='mailto:dev@esellors.com'>dev&#64;esellors.com</a>
             </p>
+            <p>
+                <a href='https://drive.google.com/file/d/1E_R0r-TofSdofjKsuW6cWa57tbSCrowY/view?usp=sharing' target='_blank' rel='noopener noreferrer'>resume</a>
+            </p>
         </section>
     );
 }

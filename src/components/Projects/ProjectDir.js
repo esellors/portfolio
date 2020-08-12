@@ -6,7 +6,7 @@ export const projectDir = {
     projects: [
         {
             name: 'instaplan',
-            context: 'DevMountain Group Project with 2 week time limit. The goal was to make a full stack site that is intuitive, user friendly, and engaging while working on a team.',
+            context: 'Devmountain Team Project with 2 week time limit. The goal was to make a full stack site that is intuitive, user friendly, and engaging while working on a team.',
             desc: 'A site that allows single click access to the current day’s events.',
             links: [
                 {
@@ -22,7 +22,7 @@ export const projectDir = {
         },
         {
             name: 'bartertag',
-            context: 'DevMountain Personal Project with 2 week time limit. The goal was to make a full stack site that is fun, responsive, and easy to navigate.',
+            context: 'Second Devmountain Personal Project with 2 week time limit. The goal was to make a full stack site that is fun, responsive, and easy to navigate.',
             desc: 'A new, modern marketplace for bartering.',
             links: [
                 {
@@ -38,7 +38,7 @@ export const projectDir = {
         },
         {
             name: 'foodoo',
-            context: 'DevMountain Personal Project with 4 day time limit. The goal was to make a 3/4 stack site that is lightweight, functional, and intuitive without a database.',
+            context: 'First Devmountain Personal Project with 4 day time limit. The goal was to make a 3/4 stack site that is lightweight, functional, and intuitive without a database.',
             desc: 'A one-stop solution for planning out the day\'s meals.',
             links: [
                 {
