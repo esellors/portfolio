@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id='about' className='about_section sections'>
             <div className='salutation_container'>
-                <h3 className='salutation'>Nice to meet you!</h3>
+                <h3 className='salutation'>Hello!</h3>
                 <img
                     className='profile_img'
                     src={require('../../assets/img/site/about/eric-sellors.jpg')} 
